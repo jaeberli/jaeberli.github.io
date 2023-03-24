@@ -1,23 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
 
-     <title>Portfolio - Julien Aeberli</title>
+    <title>Portfolio - Julien Aeberli</title>
 
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="Tooplate">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Tooplate">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/all.min.css">
-     <link rel="stylesheet" href="css/owl.carousel.min.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/all.min.css">
+    <link rel="stylesheet" href="../../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/owl.theme.default.min.css">
 
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../../css/tooplate-ben-resume-style.css">
 <!--
 Tooplate 2120 Ben Resume
 https://www.tooplate.com/view/2120-ben-resume
@@ -26,54 +24,123 @@ https://www.tooplate.com/view/2120-ben-resume
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
-    <!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg">
+   <!-- MENU BAR -->
+   <nav class="navbar navbar-expand-lg">
+       <div class="container">
+
+           <a class="navbar-brand" href="/index.html">
+               Julien Aeberli
+           </a>
+
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+
+           <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav mx-auto">
+                   <li class="nav-item">
+                       <a href="/index.html" class="nav-link smoothScroll">Introduction</a>
+                   </li>
+
+                   <li class="nav-item">
+                       <a href="./parcours.html" class="nav-link smoothScroll">Parcours</a>
+                   </li>
+                   
+                   <li class="nav-item">
+                     <a href="./realisation.html" class="nav-link smoothScroll">Réalisations</a>
+                   </li>
+
+                   <li class="nav-item">
+                       <a href="./competence.html" class="nav-link smoothScroll">Compétences</a>
+                   </li>
+
+                   <li class="nav-item">
+                       <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                   </li>
+               </ul>
+
+               <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                   <a href="#" class="custom-btn btn" download>Télécharger le CV</a>
+               </div>
+           </div>
+
+       </div>
+   </nav>
+
+    <section class="about section-padding" id="about">
         <div class="container">
+            <div class="row">
 
-            <a class="navbar-brand" href="/index.html">
-                Julien Aeberli
-            </a>
+                <div class="col-lg-12 col-md-6 col-12">
+                    <h3 class="mb-4">Définition</h3>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    <p>
+                        Une API, Application Programming Interface, est une interface qui permet de connecter un service, comme un site web par exemple, à un autre service pour qu'ils puissent 
+                        s'échanger des données ou fonctionnalités. Les API sont très utilisés, car elles permettent d'accéder à des services proposant des fonctionnalités prêtes à l'emploi ce 
+                        qui évite de perdre du temps à réinventer la roue. Ou bien seulement récupérer des données pour les exploiter d'une quelconque manière que ce soit.
+                    </p>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="/index.html" class="nav-link smoothScroll">Introduction</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="./parcours.html" class="nav-link smoothScroll">Parcours</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                      <a href="./realisation.html" class="nav-link smoothScroll">Réalisations</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="./competence.html" class="nav-link smoothScroll">Compétences</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
-                    </li>
-                </ul>
-
-                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
-                    <a href="#" class="custom-btn btn" download>Télécharger le CV</a>
                 </div>
+
+            </div>
+            <div class="row">
+
+                <div class="col-lg-12 col-md-6 col-12">
+                    <h3 class="mb-4">Mon expérience</h3>
+                    <p>
+                        Certains des projets sur lesquels j'ai pu travailler, ou travaille encore dessus actuellement, utilisent des API.
+                    </p>
+                    <p>
+                        Un des projets actuellement en cours, le site de <a href="../../realisation/thalys.html">Thalys</a> utilise des API pour communiquer avec des services tierss de l'entreprise Thalys 
+                        afin de récupérer les informations concernant le client qui veut se connecter à son compte, la vérification est faites par un autre service. Ou encore pour que l'utilisateur 
+                        puisse voir ses billets, qu'ils soient en cours, passées ou à venir. Avec toutes les informations relatives à ces derniers. Pour réserver un billet aussi, le formulaire sur la page 
+                        d'accueil va envoyer les informations rentrées dedans à un service tiers pour nous afficher les billets disponible à l'achat.
+                    </p>
+                    
+                    <p>
+                        <a href="../../realisation/thermassist.html">Thermassist</a> aussi utilise ce système d'API pour récupérer les informations des cures à venir pour les curistes. Ces 
+                        API permettent de récupérer l'emploi du temps auprès d'entreprise qui s'occupe de fournir ces plannings. Une fois récupérées, les données sont exploitées pour être affichées dans un 
+                        calendrier intégré dans le site que les curistes peuvent voir rapidement.
+                    </p>
+
+                    <p>
+                        Je peux aussi vous parler rapidement de <a href="../../realisation/tryat.html">Tryat</a> qui avait comme technologie centrale les API. Il fallait appeler une API 
+                        fournie par un service tiers pour récupérer les données des balises. Une requête était envoyée avec dedans les informations de la balise comme son ID pour l'identifier. 
+                        Et la réponse du service nous a permit d'analyser toutes les informations qu'avait pu collecter la balise.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-12 col-md-6 col-12">
+                    <h3 class="mb-4">Ensuite ?</h3>
+    
+                    <p>
+                        Je travaille maintenant depuis plus de 5 ans sur ces technologies de manière quotidienne donc je pense pouvoir dire que j'ai une certaine maîtrise sur ces sujets. Ce 
+                        qui me permet de vite identifier si ces technologies sont adaptées ou non à une demande et d'apporter mon aide en cas de besoin. Si je peux donner un conseil à quelqu'un qui 
+                        débute sur ces technologies, c'est de suivre les documentations et formation sur Internet, notamment sur w3school. 
+                    </p>
+                    <p>
+                        Pour les mois à venir, je vais être sur le projet <a href="../../realisation/thalys.html">Thalys</a> qui fonctionne principalement grâce à cette base, la difficulté des fonctionnalités 
+                        qui vont devoir être développé reste encore à déterminer.
+                    </p>
+    
+                </div>
+    
             </div>
 
         </div>
-    </nav>
+
+    </section>
          <!-- SCRIPTS -->
-         <script src="js/jquery.min.js"></script>
-         <script src="js/bootstrap.min.js"></script>
-         <script src="js/smoothscroll.js"></script>
-         <script src="js/owl.carousel.min.js"></script>
-         <script src="js/custom.js"></script>
+         <script src="../../js/jquery.min.js"></script>
+         <script src="../../js/bootstrap.min.js"></script>
+         <script src="../../js/smoothscroll.js"></script>
+         <script src="../../js/owl.carousel.min.js"></script>
+         <script src="../../js/custom.js"></script>
     
     </body>
     </html>
