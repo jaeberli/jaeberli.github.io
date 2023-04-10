@@ -12,12 +12,12 @@
   }
   
   .title {
-        display: block;
-        font-size: 40px;
-        color: white;
-        padding: 14px 40px;
-        background: black;
-    }
+    display: block;
+    font-size: var(--h3-font-size);
+    color: white;
+    padding: 14px 40px;
+    background: black;
+  }
   
   h1 {
     margin-top: 20px;
@@ -26,15 +26,14 @@
     font-weight: 700;
   }
   
-  .container {
-    overflow: hidden;
+  .container-timeline {
     padding: 20px 10px;
     position: relative;
-    margin: 0 auto;
+    margin: 50px auto;
     width: 600px;
   }
   
-  .container:before {
+  .container-timeline:before {
     content: '';
     width: 8px;
     height: 100%;
