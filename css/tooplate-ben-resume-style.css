@@ -99,7 +99,7 @@ https://www.tooplate.com/view/2120-ben-resume
     font-size: var(--h6-font-size);
   }
 
-  p {
+  p, li {
     color: var(--p-color);
     font-size: var(--p-font-size);
     font-weight: var(--font-weight-light);
