@@ -627,3 +627,21 @@ https://www.tooplate.com/view/2120-ben-resume
       padding: 0.3rem 2rem 0.6rem 2rem;
     }
   }
+
+  .carousel-item img {
+    display: block; /* Permet de centrer l'image horizontalement */
+    margin: 0 auto; /* Centre l'image horizontalement */
+    max-width: 50%; /* Limite la largeur de l'image à 100% du conteneur */
+    max-height: 50%; /* Limite la hauteur de l'image à 100% du conteneur */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg);
+  }
+
+  #myCarousel {
+    width: 100%; /* Le div occupera 100% de la largeur disponible */
+    height: 25rem; /* La hauteur sera déterminée par le rapport d'aspect */
+    padding-bottom: 1rem;
+  }
