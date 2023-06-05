@@ -582,6 +582,7 @@ https://www.tooplate.com/view/2120-ben-resume
     .email-link {
       font-size: 28px;
     }
+    
   }
 
   @media screen and (max-width: 992px) {
@@ -595,6 +596,9 @@ https://www.tooplate.com/view/2120-ben-resume
       font-size: 22px;
       padding: 0.5rem 2rem 0.7rem 2rem;
     }
+    .carou {
+      display: hide;
+    }
   }
 
   @media screen and (max-width: 991px) {
@@ -606,6 +610,9 @@ https://www.tooplate.com/view/2120-ben-resume
       display: inline-block;
       margin: 5px 0.5rem;
     }
+    .carou {
+      display: hide;
+    }
   }
 
   @media screen and (max-width: 768px) {
@@ -613,6 +620,9 @@ https://www.tooplate.com/view/2120-ben-resume
     .hero-text {
       position: relative;
       top: 1.5rem;
+    }
+    .carou {
+      display: hide;
     }
   }
 
@@ -626,7 +636,12 @@ https://www.tooplate.com/view/2120-ben-resume
       font-size: 20px;
       padding: 0.3rem 2rem 0.6rem 2rem;
     }
+
+    .carou {
+      display: hide;
+    }
   }
+
 
   .carousel-item img {
     display: block; /* Permet de centrer l'image horizontalement */
