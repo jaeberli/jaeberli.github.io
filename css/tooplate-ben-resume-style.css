@@ -642,7 +642,6 @@ https://www.tooplate.com/view/2120-ben-resume
     }
   }
 
-
   .carousel-item img {
     display: block; /* Permet de centrer l'image horizontalement */
     margin: 0 auto; /* Centre l'image horizontalement */
@@ -659,4 +658,14 @@ https://www.tooplate.com/view/2120-ben-resume
     width: 100%; /* Le div occupera 100% de la largeur disponible */
     height: 25rem; /* La hauteur sera déterminée par le rapport d'aspect */
     padding-bottom: 1rem;
+    margin-bottom: 5rem;
+  }
+
+  section.faq.section-padding {
+    margin-top: 5rem;
+  }
+
+  div#bod {
+    display: flex;
+    flex-direction: column;
   }
