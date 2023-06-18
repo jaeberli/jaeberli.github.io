@@ -95,10 +95,32 @@ https://www.tooplate.com/view/2120-ben-resume
                         </p>
                         <p>
                             Mais aussi car le développement d'application mobile n'est clairement pas ma tasse de thé. C'est pour cela que j'ai eu 
-                            comme tâche de m'occuper de la mise en place de l'<a href="../competence/technique/api.html">API</a>. Pour cela, il a 
-                            fallu accéder au site web afin d'ajouter des pages PHP pour récupérer les données dans la base de données et pouvoir 
-                            les renvoyer à l'application. J'ai également créé les requêtes côté application pour contacter ces pages PHP. Grâce 
-                            à cela, une assez grosse partie du projet n'avait pas besoin d'être refaite.
+                            comme tâche de m'occuper de la mise en place de l'<a href="../competence/technique/api.html">API</a>. Pour mettre cela en place, il a 
+                            fallu opérer de la manière suivante :
+                        </p>
+                            <ul>
+                                <li>
+                                    Créer des pages PHP sur le site web. Ces pages n'ont qu'une seule utilité : traiter les requêtes. Le principe était assez simple, 
+                                    la requête est envoyée sur une de ces pages, suivant la contactée, les données récupérées dans la base de données étaient 
+                                    adaptées pour répondre à la demande. Par exemple, si nous contactions la page sous l'URL <i>/api/mouvements</i>, alors nous allions 
+                                    recevoir toutes les données des mouvements de la base de données. Un autre exemple plus précis, sous l'URL <i>/api/account/mouvement</i>, 
+                                    la requête avait quelques paramètres en son sein comme l'identifiant du compte pour pouvoir récupérer les mouvements liés à ce compte dans la base de données.
+                                </li>
+                                <li>
+                                    La création de fonctions permettant de récupérer les données demandées. Ces fonctions étaient des requêtes <a href="../competence/technique/sql.html">SQL</a> 
+                                    permettant la récupération des données dans la base de données.
+                                </li>
+                                <li>
+                                    La fonction de réponse à la requête. Elle a pour unique but de mettre en forme la réponse contenant les données. La réponse se faisait en renvoyant un 
+                                    JSON, c'est un type de stockage de données facilitant la lecture et la gestion des données. Puis le traitement de ces données se faisait du côté de l'app pour 
+                                    les afficher à l'utilisateur.
+                                </li>
+                            </ul>
+                        <p>
+                            Pour exploiter cette mise en place côté site web, j'ai également créé les requêtes côté application mobile pour contacter ces pages PHP. En m'assurant 
+                            d'envoyer des requêtes aux bonnes URL avec les potentiels paramètres nécessaires. Pour au final m'assurer d'avoir bien reçu la réponse voulue avec les bonnes données, 
+                            le bon code HTTP pour confirmer l'état de la transaction entre site et application.
+                            Grâce à cela, une assez grosse partie du projet n'avait pas besoin d'être refaite.
                         </p>
                     </div>
                 </div>
