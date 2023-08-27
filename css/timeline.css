@@ -94,3 +94,16 @@
     max-width: 10rem;
     float: right;
   }
+
+  .more-details {
+    text-align: center;
+  }
+
+  a {
+    color: grey !important;
+  }
+
+  a:hover {
+    color: #ffd500;
+    text-decoration: none;
+  }
