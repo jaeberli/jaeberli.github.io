@@ -46,7 +46,7 @@
     background: white;
     padding: 20px;
     margin: 20px 60px;
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
     border-radius: 8px;
     position: relative;
@@ -60,6 +60,7 @@
     color: #6ab04c;
     border: 2px solid #535c68;
     padding: 4px;
+    margin: 4px;
     border-radius: 8px;
   }
   
@@ -87,4 +88,9 @@
     top: 50%;
     transform: translatey(-50%) rotate(45deg);
     position: absolute;
+  }
+
+  .logo-parcours {
+    max-width: 10rem;
+    float: right;
   }
